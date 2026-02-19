@@ -16,6 +16,6 @@ predicted sales.
 -->
 
 <!--
-To run the app
+To run the app make sure you are in the environment(should say (.venv) on the terminal) and then
 bash: python -m frontend.main_page
 -->

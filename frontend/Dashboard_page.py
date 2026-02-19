@@ -486,7 +486,7 @@ class DashboardPage(BasePage):
 
         for key, val in forecast_dict.items():
             if " - Wk " in key:
-                parts = key.split(" – Wk ")
+                parts = key.split(" - Wk ")
                 product = parts[0]
                 wk = int(parts[1])
             else:

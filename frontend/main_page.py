@@ -37,9 +37,7 @@ class App(tk.Tk):
         self.bind("<F2>", lambda e: self.show_page("DashboardPage"))
         self.bind("<F3>", lambda e: self.show_page("PageTwo"))
 
-    # ------------------------------------------------------------------
     # Login gate
-    # ------------------------------------------------------------------
     def _show_login(self):
         """Display the login screen, covering the full window."""
         self.login_frame = LoginPage(self, on_success=self._on_login_success)
